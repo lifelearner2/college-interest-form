@@ -10,12 +10,28 @@
         <p>Please fill out this form with the required information</p>
             <form>
             <fieldset>
-                <label for="college-name">Enter College Name: <input id="college-name"> </label>
-                <label for="college-location">Enter College location: <input id="college-location"> </label>
-                <label for="majors">List 3 majors they have that you are interested in: <input id="majors"> <input> <input> </label>
-                <label for="activities">List 5 activities/clubs they have you are interested in: <input id="activities"> <input> <input> <input> <input> </label>
-                <label for="gpa-sat">Average GPA and SAT score for admitted students: <input id="gpa-sat"> <input> </label>
-                <label for="chance-category">List your "prepscholar" chances of getting in (list percentage & category): <input id="chance-category"> </label>
+                <label for="college-name">Enter College Name: <input id="college-name" type="text"> </label>
+                <label for="college-location">Enter College location: <input id="college-location" type="text"> </label>
+                <label for="majors">List 3 majors they have that you are interested in:
+                    <input id="major1" type="text">
+                    <input id="major2" type="text">
+                    <input id="major3" type="text">
+                  </label>
+                <label for="activities">List 5 activities/clubs they have you are interested in: 
+                    <input id="activities" type="text"> 
+                    <input id="activities" type="text"> 
+                    <input id="activities" type="text"> 
+                    <input id="activities" type="text"> <input id="activities" type="text"> 
+                </label>
+                <label for="gpa-sat">Average GPA and SAT score for admitted students:
+                    <input id="gpa" type="number" step="0.01" placeholder="Enter average GPA">
+                    <input id="sat" type="number" step="1" placeholder="Enter average SAT score">
+                  </label>
+                  
+                  <label for="chance-category">List your "prepscholar" chances of getting in (list percentage & category):
+                    <input id="chance" type="text" placeholder="Enter percentage and category (e.g. 85% Safety School)">
+                  </label>
+                  
 
               
                
